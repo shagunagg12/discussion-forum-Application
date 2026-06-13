@@ -13,7 +13,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // ── Middleware ────────────────────────────────────────────────────────────────
-app.use(cors({ origin: 'https://discussion-forum-application.onrender.com', credentials: true }));
+app.use(cors({ origin: 'https://discussion-forum-application-backend.onrender.com', credentials: true }));
 app.use(express.json());
 
 // ── Routes ────────────────────────────────────────────────────────────────────

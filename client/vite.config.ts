@@ -9,7 +9,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://discussion-forum-application.onrender.com',
+        target: 'https://discussion-forum-application-backend.onrender.com',
         changeOrigin: true,
       },
     },
